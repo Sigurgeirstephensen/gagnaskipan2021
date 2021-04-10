@@ -1,0 +1,11 @@
+>ru.is<
+ru.is >google.com<
+ru.is google.com >wikipedia.com<
+ru.is google.com wikipedia.com >ruv.is<
+ru.is google.com wikipedia.com ruv.is >reddit.com<
+ru.is google.com wikipedia.com >ruv.is< reddit.com
+ru.is google.com >wikipedia.com< ruv.is reddit.com
+ru.is >google.com< wikipedia.com ruv.is reddit.com
+ru.is google.com >visir.is<
+ru.is google.com >visir.is<
+ru.is >google.com< visir.is

@@ -1,0 +1,11 @@
+is_asc_desc_ordered tests:
+True
+True
+False
+
+count_ascending_series tests:
+1
+3
+3
+5
+2
