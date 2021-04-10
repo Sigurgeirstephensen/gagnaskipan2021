@@ -1,0 +1,20 @@
+
+TESTING LESS THAN:
+
+8 is NOT less than 3 
+2 is less than 9     
+4 is less than 17    
+11 is NOT less than 3
+8 is NOT less than 2 
+8 is NOT less than 7
+7 is less than 8
+6 is less than 16
+7 is NOT less than 7
+
+TESTING UNIQUE:
+
+['a', 'f', 'd', 't', 'b', 'c', 'e'] are the unique items in ['a', 'f', 'd', 't', 'a', 'b', 'c', 'd', 'e']
+['a', 'b', 'f', 'g', 't', 'c', 'd', 'e'] are the unique items in ['a', 'b', 'f', 'g', 'a', 't', 'c', 'a', 'b', 'c', 'd', 'e']
+['f', 'g', 't', 'a', 'b', 'c', 'd', 'e'] are the unique items in ['f', 'g', 't', 'a', 'b', 'c', 'd', 'e']
+['a'] are the unique items in ['a', 'a', 'a', 'a', 'a', 'a', 'a', 'a']
+['t'] are the unique items in ['t']

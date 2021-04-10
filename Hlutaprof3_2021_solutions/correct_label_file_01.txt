@@ -1,0 +1,12 @@
+1.	Kennarar
+	a)	Fridrik
+	b)	Hannes
+	c)	Kari
+2.	Nemendur
+	a)	Ragnar Ragnarsson
+		-	Verkefni 1
+		-	Daemi 3
+	b)	Arndis Arndisardottir
+		-	Verkefni 2
+		-	Daemi 1
+		-	Daemi 2
