@@ -5,7 +5,6 @@ class dll_node:
         self.next = next
 
 class WebHistory:
-    # You can change this to be one sentinel node if you are more comfortable with that type of solution
     def __init__(self):
         self.home_page = "ru.is"
         self.head = dll_node("head sentinel, this string is for debugging and should not be printed")
@@ -16,19 +15,22 @@ class WebHistory:
 
 
     def nav_to_website(self, web_url):
-        new_node = dll_node(web_url,self.curr_page,self.tail)
+        new_node = dll_node(web_url, self.curr_page, self.tail)
         new_node.prev.next = new_node
         self.tail.prev = new_node
         self.curr_page = new_node
 
     def press_back(self):
-        pass
+        if self.curr_page.prev != self.head:
+            self.curr_page = self.curr_page.prev
 
     def press_forward(self):
-        pass
+        if self.curr_page.next != self.tail:
+            self.curr_page = self.curr_page.next
 
-    #calling print on this object calls this function, printing the 
-    #dll from start to front and adds "><" around the curr_page
+    def nav_to_homepage(self):
+        self.nav_to_homepage(self.home_page)
+
     def __str__(self):
         ret_str = ""
         temp_node = self.head.next
@@ -63,5 +65,3 @@ if __name__ == "__main__":
     print(w)
     w.press_back()
     print(w)
-
-        
