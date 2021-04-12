@@ -1,0 +1,6 @@
+TESTING DOUBLED:
+
+True
+False
+False
+False

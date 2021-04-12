@@ -102,6 +102,17 @@ class ArrayList:
         self.arr = tmp_arr
         self.capacity *= 2
 
+    def sort(self):
+        for x in range(self._size):
+            minimum = x
+
+            for y in range(x + 1, self._size):
+                if self._data[y] < self._data[minimum]:
+                    minimum = y
+
+            self._data[minimum], self._data[x] = self._data[x], self._data[minimum]
+
+
 if __name__ == "__main__":
     lis = ArrayList()
     lis.append(3)

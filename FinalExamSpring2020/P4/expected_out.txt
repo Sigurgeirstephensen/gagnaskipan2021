@@ -1,0 +1,39 @@
+
+COURSE PARTICIPANTS:
+176 Guðni Magnússon 87685 Heimahlíð 2
+654 Jón Jónsson 54321 Heimaholt 54
+123 Kári Halldórsson 1234567 Heimahagar 57
+
+WAIT LIST:
+12 Holgeir Friðgeirsson 2354456567 Heimateigur 65
+32 Geir Friðriksson 99875 Heimageisli 12
+
+
+removing participant with id: 654
+
+COURSE PARTICIPANTS:
+176 Guðni Magnússon 87685 Heimahlíð 2
+12 Holgeir Friðgeirsson 2354456567 Heimateigur 65
+123 Kári Halldórsson 1234567 Heimahagar 57
+
+WAIT LIST:
+32 Geir Friðriksson 99875 Heimageisli 12
+
+
+removing participant with id: 176
+
+COURSE PARTICIPANTS:
+32 Geir Friðriksson 99875 Heimageisli 12
+12 Holgeir Friðgeirsson 2354456567 Heimateigur 65
+123 Kári Halldórsson 1234567 Heimahagar 57
+
+WAIT LIST:
+
+
+removing participant with id: 12
+
+COURSE PARTICIPANTS:
+32 Geir Friðriksson 99875 Heimageisli 12
+123 Kári Halldórsson 1234567 Heimahagar 57
+
+WAIT LIST:

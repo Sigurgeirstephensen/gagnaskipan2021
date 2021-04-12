@@ -1,0 +1,22 @@
+
+SHOWING HOW TO LOSE THE DELIMITERS, IF WANTED
+OR(AND(T,F),F)
+['OR', 'AND', 'T', 'F', 'F']
+
+
+TESTING BOOLEAN TREE
+
+OR(AND(T,F),F)
+False
+OR(T,AND(T,F))
+True
+OR(AND(T,T),F)
+True
+AND(T,OR(F,F))
+False
+AND(OR(F,T),T)
+True
+AND(F,F)
+False
+AND(OR(OR(F,F),T),OR(T,AND(T,F)))
+True
